@@ -1,0 +1,65 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>maomao</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="main.css" />
+		<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		
+<!-- 统计代码 -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+		
+	</head>
+	<body class="is-preload">
+		<!-- Header -->
+			<header id="header">
+				<!--<h1>HiWer</h1>-->
+				<br><br><br><br><br><br><br><br><br><br><!--换行x10-->
+				<h5>Internet tool man</h5>
+				YOU,IP:<script src="https://pv.sohu.com/cityjson?ie=utf-8"></script>
+				<script type="text/javascript">
+                  document.write(returnCitySN["cip"]+','+returnCitySN["cname"])</script>、
+			    <p id="hitokoto_text">em...</p>
+				<p><a href="https://maomao.ml">Blog</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://om.mplay.top">Cloud</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://stats.uptimerobot.com/VZ2PDIlJDD">Status</a></p>
+			</header>
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="http://wpa.qq.com/msgrd?v=3&amp;uin=768462104&amp;site=qq&amp;menu=yes" class="fa fa-qq fa-2x"><span class="label"></span></a></li>
+					<li><a href="mailto:i@mplay.top" class="fa fa-envelope-o fa-2x"><span class="label"></span></a></li>
+				    <!--<li><a href="https://t.me/lmaomaol" class="fa fa-telegram fa-2x"><span class="label"></span></a></li>-->
+				</ul>
+				<ul class="copyright">
+					<!-- <li>&copy; 2021Flat &  ICP </li><br> -->
+					<!-- 底部统计数据 -->
+					<script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1279895544'%3E%3C/span%3E%3Cscript src='https://v1.cnzz.com/z_stat.php%3Fid%3D1279895544%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script>
+				</ul>				
+			</footer>
+		<!-- Scripts -->
+			<script src="main.js"></script>
+			<script>
+  var xhr = new XMLHttpRequest();
+  xhr.open('get', 'https://v1.hitokoto.cn');
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4) {
+      var data = JSON.parse(xhr.responseText);
+      var hitokoto = document.getElementById('hitokoto_text');
+      hitokoto.href = 'https://v1.hitokoto.cn/?uuid=' + data.uuid
+      hitokoto.innerText = data.hitokoto;
+    }
+  }
+  xhr.send();
+</script>
+	</body>
+</html>
