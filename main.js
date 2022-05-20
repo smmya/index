@@ -36,9 +36,9 @@
 
 					// Images (in the format of 'url': 'alignment').
 						images: {
-							'https://mplay.top/1.jpg': 'center',
-							'https://mplay.top/2.jpg': 'center',
-							'https://mplay.top/5.jpg': 'center'
+							'https://cdn.jsdelivr.net/gh/smmya/index@gh-pages/1.jpg': 'center',
+							'https://cdn.jsdelivr.net/gh/smmya/index@gh-pages/2.jpg': 'center',
+							'https://cdn.jsdelivr.net/gh/smmya/index@gh-pages/5.jpg': 'center'
 						},
 
 					// Delay.
