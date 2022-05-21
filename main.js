@@ -37,7 +37,6 @@
 					// Images (in the format of 'url': 'alignment').
 						images: {
 							'https://fastly.jsdelivr.net/gh/smmya/index@gh-pages/1.jpg': 'center',
-							'https://fastly.jsdelivr.net/gh/smmya/index@gh-pages/2.jpg': 'center',
 							'https://fastly.jsdelivr.net/gh/smmya/index@gh-pages/5.jpg': 'center'
 						},
 
